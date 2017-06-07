@@ -6,8 +6,14 @@
 
 }
 
+#about_me_p {
+text-align: justify;
+margin-top: 0;
+
+}
 h2 {
 	color: #63A8A4;
+
 }
 #connect_img {
 	width: 40px;
@@ -23,7 +29,8 @@ html, body{
 
 #portfolio_img {
 	float: left;
-	margin-right: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
 }
 
 #p_name {
@@ -105,6 +112,7 @@ html, body{
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20px;
     clear: both;
     background-color: #EDEDED;
     width: auto;
@@ -125,8 +133,12 @@ html, body{
     float: left;
 	margin-right: 40px;
 	background-color: white;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 10px;
+	overflow: scroll;
+	border: solid;
+	border-width: 1px;
 
 }
 
@@ -136,6 +148,12 @@ html, body{
     background-color: white;
     float: left;
     text-align: center;
+    border-radius: 10px;
+    
+    border: solid;
+    border-width: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #foot {
