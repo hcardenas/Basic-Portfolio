@@ -1,9 +1,24 @@
 
-
-html, body{
-	margin: 20px;
+#wrapper{
+	width: 100%;
 	height: 100%;
+	position: relative;
 
+}
+
+#connect_img {
+	width: 40px;
+	height: 40px;
+}
+html, body{
+	height: 100%;
+	margin: 0;
+
+}
+
+#portfolio_img {
+	float: left;
+	margin-right: 5px;
 }
 
 #p_name {
@@ -17,7 +32,8 @@ html, body{
 	clear: both;
 	width: 100%;
 	height: 100px;
-	position: relative;
+	position: absolute;
+	top: 0;
 
 }
 
@@ -29,6 +45,7 @@ html, body{
 	bottom: 0;
 	right: 0;
 	margin-right: 10%;
+	margin-bottom: 5px;
 }
 
 #name {
@@ -79,40 +96,36 @@ html, body{
 
 #content {
 	margin: 0;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 10%;
-	clear: both;
-	background-color: #EDEDED;
-
-	height: auto;
-	width: auto;
-	border-top: solid;
-	border-color: darkgray;
-
-	position: relative;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    clear: both;
+    background-color: #EDEDED;
+    width: auto;
+    height: auto;
+    border-top: solid;
+    border-color: darkgray;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    overflow: scroll;
+    display: flex;
 }
 
 #inside_info {
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: 10%;
-	background-color: white;
-	height: auto;
-	width: auto;
-	float: left;
-	position: absolute;
-	top:0;
-
+	left: 10%;
+    top: 10px;
+    clear: both;
+    float: left;
+	margin-right: 40px;
 
 }
 
 #connect_with_me {
-	width: 200px;
-	height: 200px;
-	float: right; 
-	background-color: white;
-
+	width: 600px;
+    height: 200px;
+    background-color: white;
+    float: left;
 }
 
 #foot {
@@ -128,7 +141,7 @@ html, body{
 
 	text-align: center;
 	line-height: 100px;
-
-
+	position: absolute;
+	bottom: 0;
 
 }
