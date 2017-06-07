@@ -6,13 +6,18 @@
 
 }
 
+h2 {
+	color: #63A8A4;
+}
 #connect_img {
 	width: 40px;
 	height: 40px;
+	
 }
 html, body{
 	height: 100%;
 	margin: 0;
+	color: #CCCCCC;
 
 }
 
@@ -75,10 +80,11 @@ html, body{
 	float: left;
 	margin-right: 10px; 
 	margin-left: 10px;
+
 	border-right: solid;
 	border-left: solid;
 	border-color: darkgray;
-	padding-right: 10px;
+	padding-right: 15px;
 	padding-left: 10px;
 
 	width: 50px;
@@ -118,14 +124,17 @@ html, body{
     clear: both;
     float: left;
 	margin-right: 40px;
+	background-color: white;
+	padding-left: 5px;
 
 }
 
 #connect_with_me {
 	width: 600px;
-    height: 200px;
+    height: 150px;
     background-color: white;
     float: left;
+    text-align: center;
 }
 
 #foot {
