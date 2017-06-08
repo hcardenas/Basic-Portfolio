@@ -90,6 +90,7 @@ color: gray;
 }
 h2 {
 	color: #63A8A4;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 #connect_img {
@@ -101,7 +102,7 @@ html, body{
 	height: 100%;
 	margin: 0;
 	color: #CCCCCC;
-
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #portfolio_img {
@@ -134,7 +135,7 @@ html, body{
     bottom: 0;
     right: 0;
     margin-bottom: 5px;
-    overflow: hidden;
+    width: auto;
 }
 
 #name {
@@ -186,7 +187,7 @@ background-color: #4FA9A4;
     padding-bottom: 20px;
     clear: both;
     background-color: #EDEDED;
-    width: auto;
+    width: 100%;
     height: auto;
     border-top: solid;
     border-color: darkgray;
@@ -195,6 +196,7 @@ background-color: #4FA9A4;
     bottom: 100px;
     overflow: scroll;
     display: flex;
+    background-image: url("../images/concrete-texture.png");
 }
 
 #inside_info {
