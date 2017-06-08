@@ -13,12 +13,11 @@
 	bottom: 10px;
 	text-align: center;
 	width: 100%;
-	 
+
 
 }
 
-#p_image {
-	float: left;
+#l_image, #r_image {
 	width: 150px;
 	height: 150px;
 	margin: 10px;
@@ -27,6 +26,16 @@
 	z-index: 0;
 	position: relative;
 
+}
+
+#l_image {
+	margin-left: 15%;
+	float: left;
+}
+
+#r_image {
+	margin-right: 15%;
+	float: right;
 }
 
 a:link {
@@ -42,7 +51,7 @@ a:hover {
 }
 
 input {
-	width: 576px;
+	width: 480px;
 	margin-right: 20px;
 
 	padding: 5px;
@@ -61,7 +70,7 @@ input {
 }
 textarea {
 
-	width: 576px;
+	width: 490px;
 	margin-right: 20px;
 	height: 200px;
 }
@@ -209,6 +218,7 @@ html, body{
 	border: solid;
 	border-width: 1px;
 	min-width: 500px;
+	max-width: 500px;
 
 }
 
