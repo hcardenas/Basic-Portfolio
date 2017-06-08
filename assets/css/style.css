@@ -1,3 +1,33 @@
+#portfolio_images {
+	text-align: center;
+}
+
+#row1, #row2, #row3 {
+	clear: both;
+}
+
+#name_image {
+	z-index: 1;
+	background-color: #4FA9A4;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	 
+
+}
+
+#p_image {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	background-image: url("../images/placeholder.png");
+	background-repeat: no-repeat;
+	z-index: 0;
+	position: relative;
+
+}
 
 a:link {
 	color: blue;
@@ -26,6 +56,7 @@ input {
 	font-size: 13px;
 	margin-top: 10px;
 	border-radius: 5px;
+	margin-bottom: 5px;
 
 }
 textarea {
